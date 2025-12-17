@@ -67,7 +67,7 @@ Compatible with index.js + package.json
 
 
 🎨 Render
-
+https://github.com/lukman549/DARKCORE-XMD/blob/main/render.yaml
 
 ☁️ Koyeb
 
