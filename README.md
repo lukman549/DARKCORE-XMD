@@ -23,11 +23,18 @@
     <img src="https://img.shields.io/github/forks/lukman549/DARKCORE-XMD?style=for-the-badge">
   </a>
 </p>
+---
+🚀 Deploy DARKCORE-XMD
+
+[![Deploy on Railway](https://img.shields.io/badge/Deploy-Railway-111111?style=for-the-badge&logo=railway)](https://railway.app/new/template?template=https://github.com/lukman549/DARKCORE-XMD)  
+[![Deploy on Heroku](https://img.shields.io/badge/Deploy-Heroku-430098?style=for-the-badge&logo=heroku)](https://heroku.com/deploy?template=https://github.com/lukman549/DARKCORE-XMD)  
+[![Deploy on Koyeb](https://img.shields.io/badge/Deploy-Koyeb-FF3E00?style=for-the-badge&logo=koyeb)](https://app.koyeb.com/deploy?repo=https://github.com/lukman549/DARKCORE-XMD)  
+[![Deploy on Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com/new/clone?repository-url=https://github.com/lukman549/DARKCORE-XMD)  
+[![Deploy on Render](https://img.shields.io/badge/Deploy-Render-3C3C3D?style=for-the-badge&logo=render)](https://render.com/deploy)  
+[![Deploy Panel](https://img.shields.io/badge/Deploy-Panel-4CAF50?style=for-the-badge&logo=appveyor)](https://your-panel-deploy-link.com)
 
 ---
-Deplyments
 
-[![Deploy to Heroku](https://lukman549.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/lukman549/DARKCORE-XMD)
 
 ## 📌 Overview
 **DARKCORE-XMD** is a fast, session-based **WhatsApp Multi-Device bot** built with **Baileys MD** and **Node.js**.  
@@ -43,6 +50,7 @@ It uses **pair-code authentication**, stores sessions locally, and requires **no
 - Stickers & Anti-Delete
 - Auto Typing & Recording
 - Plugin-based commands
+
 
 ---
 
@@ -62,51 +70,6 @@ BOT_NAME=DARKCORE-XMD
 
 ---
 
-☁️ Deploy
-
-Compatible with index.js + package.json
-
-🚄 Railway
-
-
-🎨 Render
-
-
-☁️ Koyeb
-
-
-💜 Heroku
-
-
-
----
-
-🔑 Login
-
-1. Start bot
-
-
-2. Generate pair code
-
-
-3. Link WhatsApp → Linked Devices
-
-
-4. Session saved in /session
-
-
-
-
----
-
-📁 Structure
-
-index.js
-package.json
-settings.json
-plugins/
-lib/
-session/
 
 
 ---
