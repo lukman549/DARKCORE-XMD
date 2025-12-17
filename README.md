@@ -1,4 +1,5 @@
----
+---<img src="https://github.com/lukman549/DARKCORE-XMD/raw/main/banner.png" width="300"/>
+
 
 <p align="center">
   <img src="https://telegra.ph/file/8c8f2c8e2c8a7e6c3a5f0.jpg" width="300"/>
