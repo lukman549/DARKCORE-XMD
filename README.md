@@ -1,5 +1,5 @@
 ---<img src="https://github.com/lukman549/DARKCORE-XMD/raw/main/banner.png" width="300"/>
-
+[![Deploy to Heroku](https://lukman549.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/lukman549/DARKCORE-XMD)
 
 <p align="center">
   <img src="https://telegra.ph/file/8c8f2c8e2c8a7e6c3a5f0.jpg" width="300"/>
@@ -67,13 +67,12 @@ Compatible with index.js + package.json
 
 
 🎨 Render
-https://github.com/lukman549/DARKCORE-XMD/blob/main/render.yaml
+
 
 ☁️ Koyeb
 
 
 💜 Heroku
-
 
 
 
