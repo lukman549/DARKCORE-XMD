@@ -1,4 +1,4 @@
-<p align="center">
+hi<p align="center">
   <img src="https://telegra.ph/file/8c8f2c8e2c8a7e6c3a5f0.jpg" width="300"/>
 </p>
 
@@ -61,19 +61,43 @@ It uses **pair-code authentication**, stores sessions locally, and requires **no
 
 ---
 
-## 🛠 Installation (Local)
+🛠️ Local Installation
+
+Follow these steps to set up DARKCORE-XMD on your machine:
+
+---
+
+[![Step 1](https://img.shields.io/badge/1-Clone%20Repo-0099ff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lukman549/DARKCORE-XMD)  
+**Clone the repository:**  
 ```bash
 git clone https://github.com/lukman549/DARKCORE-XMD.git
 cd DARKCORE-XMD
+
+
+---
+
+[]
+Install required packages:
+
 npm install
+
+
+---
+
+[]
+Create your .env file and add necessary configurations:
+
+# Example
+BOT_TOKEN=your_token_here
+OWNER_NUMBER=256700123456
+
+
+---
+
+[]
+Start DARKCORE-XMD locally:
+
 npm start
-
-Create .env:
-
-SESSION_ID=
-OWNER_NUMBER=256XXXXXXXX
-BOT_NAME=DARKCORE-XMD
-
 
 ---
 
