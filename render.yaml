@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Denavi-MD 
+    name: DARKCORE-XMD
     env: node
     plan: free
     repo: https://github.com/denavigator/Denavi-MD
