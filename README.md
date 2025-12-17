@@ -85,11 +85,7 @@ support
 
 ---
 
-⚠️ Disclaimer
 
-Educational use only. Developer not responsible for misuse.
-
-<p align="center"><b>⭐ Star & Fork to support DARKCORE-XMD</b></p>
 ```
 ---
 [![Disclaimer](https://img.shields.io/badge/⚠️-Disclaimer%20%7C%20Use%20Responsibly-neon?style=for-the-badge&color=ff0066&logo=appveyor&logoColor=white)](https://github.com/lukman549/DARKCORE-XMD#disclaimer)
