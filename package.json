@@ -1,12 +1,12 @@
 {
-  "name": "Denavi-MD",
+  "name": "DARKCORE-XMD",
   "version": "4.5.0",
   "description": "A WhatsApp Bot Created By Luktech Official",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name E3_HACKER_MD",
-    "stop": "pm2 stop Denavi-MD",
-    "restart": "pm2 restart Denavi-MD"
+    "stop": "pm2 stop DARKCORE-XMD",
+    "restart": "pm2 restart DARKCORE-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-pro@latest",
