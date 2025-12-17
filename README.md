@@ -1,9 +1,4 @@
 <p align="center">
-  <img src="
-https://raw.githubusercontent.com/file_000000005a74720c9dde4302d7598716.png/darkcore-banner.png.png" alt="file_000000005a74720c9dde4302d7598716.png">
-
-
-<p align="center">
   <img src="https://telegra.ph/file/8c8f2c8e2c8a7e6c3a5f0.jpg" width="300"/>
 </p>
 
