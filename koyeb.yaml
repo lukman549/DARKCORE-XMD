@@ -1,6 +1,6 @@
-name: Denavi_MD
+name: DARKCORE-XMD
 services:
-  - name: Denavi_MD-service
+  - name: DARKCORE-XMD-service
     type: web
     ports:
       - 5000
