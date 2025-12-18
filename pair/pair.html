@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DARKCORE-XMD Pair</title>
+  <style>
+    body {
+      background:#0f0f0f;
+      color:#00ffcc;
+      font-family: monospace;
+      text-align:center;
+      padding-top:60px;
+    }
+    button {
+      padding:15px 30px;
+      font-size:18px;
+      background:#00ffcc;
+      border:none;
+      border-radius:8px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h1>DARKCORE-XMD SESSION PAIR</h1>
+<p>Click button to generate pairing code</p>
+
+<button onclick="pair()">PAIR NOW</button>
+
+<h2 id="code"></h2>
+
+<script>
+async function pair() {
+  document.getElementById("code").innerText = "Generating...";
+  const res = await fetch("/pair");
+  const data = await res.json();
+  document.getElementById("code").innerText = data.code || data.status;
+}
+</script>
+
+</body>
+</html>
+
+  
