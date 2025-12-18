@@ -16,7 +16,7 @@ services:
       - key: STICKER_NAME
         sync: false
       - key: PREFIX
-        sync: "/"
+        sync: false
       - key: MODE
         sync: false
       - key: ALWAYS_ONLINE
