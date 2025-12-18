@@ -3,27 +3,10 @@
 <head>
   <title>DARKCORE-XMD Pair</title>
   <style>
-    body {
-      background:#0f0f0f;
-      color:#00ffcc;
-      font-family: monospace;
-      text-align:center;
-      padding-top:60px;
-    }
-    input, button {
-      padding:12px;
-      font-size:16px;
-      border-radius:6px;
-      border:none;
-      margin:6px;
-    }
-    input {
-      width:220px;
-    }
-    button {
-      background:#00ffcc;
-      cursor:pointer;
-    }
+    body { background:#0f0f0f; color:#00ffcc; font-family:monospace; text-align:center; padding-top:60px; }
+    input, button { padding:12px; font-size:16px; border-radius:6px; border:none; margin:6px; }
+    input { width:220px; }
+    button { background:#00ffcc; cursor:pointer; }
   </style>
 </head>
 <body>
@@ -40,14 +23,12 @@
 <script>
 async function pair() {
   const number = document.getElementById("number").value;
-  if (!number) {
-    alert("Enter phone number");
-    return;
-  }
+  if (!number) { alert("Enter phone number"); return; }
+
   document.getElementById("code").innerText = "Generating code...";
   const res = await fetch(`/pair?number=${number}`);
   const data = await res.json();
-  document.getElementById("code").innerText = data.code || data.error;
+  document.getElementById("code").innerText = data.code || data.error || data.status;
 }
 </script>
 
